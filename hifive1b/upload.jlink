@@ -1,0 +1,5 @@
+h
+loadfile ./hello.hex
+r
+q
+

@@ -1,0 +1,10 @@
+-build elf
+```
+$ make
+```
+- run on qemu
+```
+$ qemu-system-riscv32 -nographic -machine sifive_e -bios none -kernel hello.elf
+```
+- finally, "Ctrl-A x" terminates QEMU
+

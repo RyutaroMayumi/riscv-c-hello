@@ -1,0 +1,4 @@
+hifive1b/hello.*
+hifive1b/*.o
+qemu-sifive_e/hello.*
+qemu-sifive_e/*.o

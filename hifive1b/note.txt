@@ -1,0 +1,17 @@
+- reference
+    - https://mickey-happygolucky.hatenablog.com/entry/2019/11/14/071841
+- build elf
+```
+$ make
+```
+- upload elf to device
+``
+$ make flash
+```
+- turn up screen
+```
+$ screen /dev/ttyAMC0 115200
+```
+- then push RESET button
+- finally, "Ctrl-A k" kills screen
+
